@@ -17,6 +17,9 @@ function launchDate(date) {
     $('#launch_date').innerHTML = getTimeRemaining(date);
 }
 
-var deadline = new Date(Date.parse(new Date("July 01,2019")));
+document.addEventListener('DOMContentLoaded', function() {
+    var deadline = $('#launch-date-init').attr('data-date');
+        deadline = new Date(Date.parse(new Date(deadline)));
 
-launchDate('launch_date', deadline);
+    launchDate(deadline);
+});
