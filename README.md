@@ -6,4 +6,4 @@ Internal Initialize
 
 External Initialize
 
-`<script id="launch-date-init" data-date="May 25, 2019" src="https://cdn.jsdelivr.net/gh/kolbykruger/launch-date@latest/launch-date.js" type="text/javascript"></script>`
+`<script id="launch-date-init" data-date="May 25, 2019" src="https://cdn.jsdelivr.net/gh/eternityweb/launch-date@latest/launch-date.js" type="text/javascript"></script>`
