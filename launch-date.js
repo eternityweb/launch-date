@@ -19,7 +19,8 @@ function launchDate(date) {
 
     console.log('Launch-Date Func')
 
-    $('#launch_date').innerHTML = getTimeRemaining(date);
+    var time = getTimeRemaining(date);
+    $('#launch_date').text(time);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
